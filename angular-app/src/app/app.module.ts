@@ -6,13 +6,15 @@ import { CustomerComponent } from './customer/customer.component';
 import { StudentComponent } from './student/student.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerComponent,
     StudentComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
